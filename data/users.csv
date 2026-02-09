@@ -1,0 +1,4 @@
+Action;SamAccountName;Nom;Prenom;OU;Groupes
+CREATE;trandriamisaina;Randriamisaina;Tsiory;OU=Users,DC=domaine,DC=local;IT-Users,VPN-Users
+MODIFY;trandriamisaina;Randriamisaina;Tiavina;OU=Users,DC=domaine,DC=local;IT-Users
+DELETE;jtest;Test;Tiavina;; 
