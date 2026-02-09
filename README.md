@@ -7,4 +7,11 @@ Scripts PowerShell pour automatiser l’administration Windows Server :
 - Partages et permissions
 - DNS / DHCP
 
-Ces scripts remplacent les actions manuelles réalisées via les consoles MMC
+Automatisation de la création, modification et suppression
+des comptes utilisateurs Active Directory via PowerShell.
+
+Fonctionnalités :
+- Lecture depuis un fichier CSV
+- Gestion des utilisateurs AD
+- Ajout aux groupes
+- Génération automatique d’un rapport CSV
