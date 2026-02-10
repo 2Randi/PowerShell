@@ -21,6 +21,7 @@ foreach ($user in $users) {
                     throw "Utilisateur existe déjà"
                 }
 
+                # Pour la création, un mot de passe par défaut est défini (à changer lors de la première connexion)
                 $password = ConvertTo-SecureString "P@ssw0rd123" -AsPlainText -Force
 
                 New-ADUser `
